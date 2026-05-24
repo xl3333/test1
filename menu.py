@@ -2,7 +2,7 @@
 import os
 class MenuSystem:
     def __init__(self,file_handler,formatter):
-        self.fil_handler=file_handler
+        self.file_handler=file_handler
         self.formatter = formatter
         self.current_content=None
         self.current_file_path=None
