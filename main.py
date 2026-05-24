@@ -1,0 +1,5 @@
+print("hello world")
+print("文本自动排版工具")
+print("1读取文档")
+print("排版文档")
+print("退出")

@@ -1,0 +1,17 @@
+# Python 编译文件
+*.pyc
+__pycache__/
+*.pyo
+
+# PyCharm 配置
+.idea/
+*.iml
+
+# 虚拟环境
+venv/
+.env
+
+# 临时文件
+*.log
+*.tmp
+.DS_Store
