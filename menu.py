@@ -97,5 +97,13 @@ class MenuSystem:
                     break
             else:
                 print("\n无效输入，请输入1-5之间的数字")
-
+def show_menu(self):
+    print("\n" + "=" * 35)
+    print("      文档自动排版工具 V2.0")  # 把这里改成带版本号的标题
+    print("=" * 35)
+    print("1. 读取文档文件")
+    print("2. 基础格式排版（默认格式 + 冗余清理）")
+    print("3. 字数统计功能")  # 新增一行，假装你加了新功能
+    print("4. 退出系统")
+    print("-" * 35)
 
